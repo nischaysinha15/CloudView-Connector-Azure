@@ -8,10 +8,12 @@ The aim of this repository is to build a solution which will help you onboard mu
 
 This repository contains ==>
 
-  1. [**Main powershell program**](/Powershell/Cloudview_Connector_Azure.ps1) 
+  1. [**Main powershell program**](/Powershell/Cloudview_Connector_Azure_Connector_APP.ps1) 
   2. [**Configuration file**](/Powershell/config/config.json)
   3. [**CSV with list of subscriptions**](/Powershell/config/azure-subscriptions.csv)
- 
+### Note
+* Cloudview_Connector_Azure.ps1 - Uses Qualys's V1 APIs
+* Cloudview_Connector_Azure_Connector_APP.ps1 - Uses Qualys's V3 APIs (Latest)
 
 ## Deployment Options
 * **All subscriptions under a Tenant or AD** : To onboard **all** the subscriptions under a Tenent or AD
